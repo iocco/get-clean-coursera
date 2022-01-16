@@ -7,6 +7,10 @@
 
 # User-specific files
 .Ruserdata
+*.Rproj
+
+# Mac generated file
+.DS_Store
 
 # Example code in package build process
 *-Ex.R
@@ -37,3 +41,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# File download and unzip
+dataset.zip
+/UCI HAR Dataset/
+# Generated Dataset
+tidy dataset.txt
